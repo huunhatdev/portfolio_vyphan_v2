@@ -7,21 +7,24 @@ const NutriBlog = () => {
             id: 1,
             title: 'Blog Title',
             subTitle: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-            imgSrc: ''
+            imgSrc: '',
+            path: ''
         },
         {
             id: 2,
             title: 'Antioxidants in Action: Battling Inflammation',
             subTitle:
                 'Welcome to the World of Antioxidants and Inflammation! It’s going to be an action-packed journey you won’t want to miss!',
-            imgSrc: 'image 1.png'
+            imgSrc: 'image 1.png',
+            path: 'antioxidants'
         },
         {
             id: 3,
             title: 'Why I Chose to Study Nutrition',
             subTitle:
                 'Nutrition is a very young field of science and public health that needs to be recognized and investigated more in-depth.',
-            imgSrc: 'Group 152.png'
+            imgSrc: 'Group 152.png',
+            path: 'study'
         }
     ];
     return (

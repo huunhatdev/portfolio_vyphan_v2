@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import { getImage } from '../../../utils/image';
 
-const ItemNutriBlog = ({ imgSrc = '', title = '', subTitle = '' }) => {
+const ItemNutriBlog = ({ imgSrc = '', title = '', subTitle = '', path }) => {
     return (
-        <div className="w-full border border-black border-solid">
+        <Link to={path} className="w-full border border-black border-solid">
             {!imgSrc ? (
                 <div className="w-full aspect-video bg-[#FFF6F7]" />
             ) : (
@@ -12,7 +13,7 @@ const ItemNutriBlog = ({ imgSrc = '', title = '', subTitle = '' }) => {
                 <h3 className="text-xl font-semibold text-black">{title}</h3>
                 <h5>{subTitle}</h5>
             </div>
-        </div>
+        </Link>
     );
 };
 
