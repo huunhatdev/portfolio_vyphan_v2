@@ -6,7 +6,7 @@ const SideBar = () => {
 
     return (
         <div className="mt-5 mb-11">
-            <NavLink to={'/'} className={getClassName}>
+            <NavLink to={'/illustration'} className={getClassName}>
                 Illustration/Graphic
             </NavLink>
             <NavLink to={'/design'} className={getClassName}>
