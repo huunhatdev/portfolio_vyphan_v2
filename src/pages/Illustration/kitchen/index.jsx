@@ -12,7 +12,7 @@ const Kitchen = () => {
         'Field Trip to the Kitchen 10'
     ];
     return (
-        <div>
+        <div className="container__box">
             <h2 className="c-title text-[#A2553D]">Field Trip to the Kitchen!</h2>
             <p className="mx-auto max-w-[26rem] my-12">
                 This is a second editorial project I got to work with FoodPlay Productions. The founder commissioned me

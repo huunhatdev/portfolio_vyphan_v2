@@ -47,7 +47,7 @@ const IllustratedProject = () => {
         }
     ];
     return (
-        <div className="grid grid-cols-3 gap-8 ">
+        <div className="grid grid-cols-3 gap-8 container__box">
             {listImage.map((item) => (
                 <ImageItem key={item.id} {...item} />
             ))}
@@ -60,7 +60,7 @@ export default IllustratedProject;
 const ImageItem = ({ imgName = '', title = '', subTitle = '', path }) => {
     return (
         <Link to={path} className="text-center">
-            <img className="aspect-[3/4]" src={getImage(imgName)} />
+            <img className="aspect-[3/4] w-full" src={getImage(imgName)} />
             <h3 className="my-2 font-semibold">{title}</h3>
             <h5 className="text-sm font-Jomo text-[#949494] font-normal">{subTitle}</h5>
         </Link>

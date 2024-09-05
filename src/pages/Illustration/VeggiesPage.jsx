@@ -2,7 +2,7 @@ import { getImage } from '../../utils/image';
 
 const VeggiesPage = () => {
     return (
-        <div className="">
+        <div className="container__box">
             <h2 className="c-title text-[#B23A34] mb-8">Veggies Got Talent!</h2>
             <p className="mb-12 text-2xl font-bold text-center">A take-off on the “America’s Got Talent!” TV Show.</p>
             <div className="grid w-full grid-cols-2 mx-auto gap-7">

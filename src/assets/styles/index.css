@@ -25,3 +25,7 @@
 .container__box {
     @apply container mx-auto;
 }
+
+.button {
+    @apply leading-8 border-[1.5px] border-solid rounded-lg border-[#F9EED4] text-[#F9EED4] px-4 py-2 w-fit;
+}

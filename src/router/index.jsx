@@ -15,6 +15,7 @@ import Design from '../pages/Design';
 import FoodPlayPage from '../pages/Design/FoodPlayPage';
 import RobosPage from '../pages/Design/RobosPage';
 import IllustrationPage from '../pages/Illustration/IllustrationPage';
+import EducationPage from '../pages/Illustration/EducationPage';
 
 export const router = [
     {
@@ -52,6 +53,10 @@ export const router = [
                     {
                         path: 'talkshow',
                         element: <TalkShow />
+                    },
+                    {
+                        path: 'activity',
+                        element: <EducationPage />
                     }
                 ]
             },

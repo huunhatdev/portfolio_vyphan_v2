@@ -52,7 +52,7 @@ const NftPage = () => {
         '703 3'
     ];
     return (
-        <div className="">
+        <div className="container__box">
             <h2 className="c-title text-[#1E2242] mb-12">Freelance NFT Artist</h2>
             <div className="grid grid-cols-3 mb-12 gap-7">
                 <img className="aspect-square" src={getImage('Twitter(tablet).png')} alt="" />
