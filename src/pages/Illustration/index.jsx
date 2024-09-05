@@ -2,7 +2,7 @@ import { Outlet } from 'react-router-dom';
 
 const Illustration = () => {
     return (
-        <div>
+        <div className="container__box">
             <Outlet />
         </div>
     );

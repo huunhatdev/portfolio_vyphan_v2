@@ -10,7 +10,7 @@ const ArtsPage = () => {
         'Fruit and Veggies Activity Kit  2'
     ];
     return (
-        <div>
+        <div className="container__box">
             <h2 className="c-title text-[#ED5A7B] mb-8">Personal Arts</h2>
             <p className="text-[#231F20] max-w-[23rem] mx-auto mb-12">
                 In my spare time, I work on personal projects and create art to improve my artistic and design skills.

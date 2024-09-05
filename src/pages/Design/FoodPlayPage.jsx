@@ -2,7 +2,7 @@ import { getImage } from '../../utils/image';
 
 const FoodPlayPage = () => {
     return (
-        <div>
+        <div className="container__box">
             <h2 className="c-title text-[#DE5A41] mb-8">FoodPlay Productions</h2>
             <p className="text-[#949494] mb-12 text-opacity-55 font-semibold text-2xl mx-auto text-center">
                 LANDING PAGE REDESIGN

@@ -28,7 +28,7 @@ const NutriBlog = () => {
         }
     ];
     return (
-        <div className="w-full">
+        <div className="w-full container__box">
             <TitleSection
                 title={`Here is where I get to communicate\nutrition concepts in a visual manner!`}
                 color="#FDDBDE"

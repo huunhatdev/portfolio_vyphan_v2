@@ -2,7 +2,7 @@ import { getImage } from '../../utils/image';
 
 const TalkShow = () => {
     return (
-        <div>
+        <div className="container__box">
             <h2 className="c-title text-[#C39CCD]">Talkshow “About Me”</h2>
             <div className="flex">
                 <img src={getImage('7mineava 2.png')} alt="" />

@@ -2,7 +2,7 @@ import { getImage } from '../../utils/image';
 
 const BlenderPage = () => {
     return (
-        <div>
+        <div className="container__box">
             <h2 className="c-title text-[#C69C88] mb-8">Blender Project</h2>
             <p className="text-[#231F20] max-w-[23rem] mx-auto mb-12">
                 Recently, I discovered Blender and couldn’t wait to try out this incredible software. Practicing 3D

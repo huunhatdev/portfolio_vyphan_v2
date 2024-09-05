@@ -21,3 +21,7 @@
 .robos__title--number {
     @apply text-8xl font-bold text-[#43466F];
 }
+
+.container__box {
+    @apply container mx-auto;
+}

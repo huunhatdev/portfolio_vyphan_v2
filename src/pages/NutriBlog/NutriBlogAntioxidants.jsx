@@ -7,7 +7,7 @@ import SourcesAntioxidant from './components/SourcesAntioxidant';
 const NutriBlogAntioxidants = () => {
     const titleClassName = 'mb-3 text-2xl font-bold font-fair';
     return (
-        <div>
+        <div className="container__box">
             <TitleBlog title="Antioxidants in Actions: Battling Inflammation" date="May 14, 2024" />
             <p className="mt-10 font-bold">Welcome to the World of Antioxidants and Inflammation!</p>
             <p className="mb-10">

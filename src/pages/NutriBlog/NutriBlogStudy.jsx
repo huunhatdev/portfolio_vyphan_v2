@@ -3,7 +3,7 @@ import TitleBlog from './components/TitleBlog';
 
 const NutriBlogStudy = () => {
     return (
-        <div>
+        <div className="container__box">
             <TitleBlog title="Why I Chose to Study Nutrition" date="February 14, 2024" />
 
             <div className="aspect-video bg-[#FCF2F2] flex items-center justify-center">

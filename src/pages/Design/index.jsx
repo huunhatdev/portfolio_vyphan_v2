@@ -27,7 +27,7 @@ const Design = () => {
         }
     ];
     return (
-        <div>
+        <div className="container__box">
             <TitleSection title={`I also got some projects to practice my\nUX/UI design experiences`} color="#D5F2FC" />
             <div className="grid grid-cols-2 gap-8">
                 {listItem.map((item) => (
