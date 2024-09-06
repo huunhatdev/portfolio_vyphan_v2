@@ -17,7 +17,7 @@ const SourcesAntioxidant = () => {
                 )}
                 onClick={_handleVisible}
             >
-                Sources <IconArrow />
+                Sources <IconArrow active={visible} />
             </div>
             {visible ? (
                 <ol className="pl-5 list-decimal">

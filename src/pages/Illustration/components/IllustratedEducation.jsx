@@ -13,7 +13,7 @@ const IllustratedEducation = () => {
                 style={{ zIndex: 2 }}
             >
                 <img className="lg:w-[30%]" src={getImage('Front and Back spiral 1.png')} alt="" />
-                <div className="flex flex-col gap-4 py-16 lg:w-[40%]">
+                <div className="flex flex-col gap-4 py-4 md:py-16 lg:w-[40%]">
                     <p className="font-bold text-2xl text-[#F9EED4]">Veggies Got Talent! A Fun-Filled Activity Kit</p>
                     <p className="italic font-bold text-xl text-[#E8C69B]">
                         with Coloring Sheets, Rhymin’ Beats, and Recipes for Tasty Treats!
@@ -24,7 +24,11 @@ const IllustratedEducation = () => {
                     </p>
                     {width >= WINDOW_SIZE.LG && <ButtonLearn />}
                 </div>
-                <img className="object-cover h-full mx-auto lg:w-[30%]" src={getImage('Mask group.png')} alt="" />
+                <img
+                    className="object-cover w-full md:w-auto md:h-full mx-auto lg:w-[30%]"
+                    src={getImage('Mask group.png')}
+                    alt=""
+                />
                 {width <= WINDOW_SIZE.LG && <ButtonLearn />}
             </div>
         </div>

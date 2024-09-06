@@ -38,10 +38,10 @@ const EducationPage = () => {
                             increase children’s preferences for vegetables!
                         </p>
                         <div className="flex justify-center gap-3 md:justify-start">
-                            <Link to={'activity'} className="button">
+                            <Link to={'#'} className="button">
                                 Order Here
                             </Link>
-                            <Link to={'activity'} className="button">
+                            <Link to={'#'} className="button">
                                 Amazon Link
                             </Link>
                         </div>

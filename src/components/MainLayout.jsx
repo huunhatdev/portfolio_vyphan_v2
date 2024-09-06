@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom';
+import { Link, matchPath, Navigate, Outlet, useLocation } from 'react-router-dom';
 import { getImage } from '../utils/image';
 import { IconInstagram } from '../assets/icons/IconInstagram';
 import { IconMail } from '../assets/icons/IconMail';
@@ -9,6 +9,11 @@ import ScrollToTopPage from './ScrollToTopPage';
 
 const MainLayout = () => {
     const { md } = useWindowSize();
+    const { pathname } = useLocation();
+
+    if (matchPath(pathname, '/')) {
+        return <Navigate to="/illustration" />;
+    }
 
     return (
         <div className="min-h-[100vh] flex flex-col">
@@ -16,7 +21,9 @@ const MainLayout = () => {
             <div className="h-[35px] bg-[#FDDBDE]"></div>
             <div className="relative flex flex-col items-center flex-1 py-10">
                 <div className="flex flex-col items-center gap-3">
-                    <img className="w-32 h-30" src={getImage('Lan_Vy 1.png')} />
+                    <Link to="/">
+                        <img className="w-32 h-30" src={getImage('Lan_Vy 1.png')} />
+                    </Link>
                     <p className="max-w-[420px] text-center text-[20px]">
                         Hello, I’m Vy, a freelance visual designer and a nutrition student based in the United States.
                     </p>

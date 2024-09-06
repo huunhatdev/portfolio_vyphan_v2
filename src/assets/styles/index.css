@@ -29,7 +29,7 @@
 }
 
 .button {
-    @apply leading-8 border-[1.5px] border-solid rounded-lg border-[#F9EED4] text-[#F9EED4] px-4 py-2 w-fit;
+    @apply leading-8 border-[1.5px] border-solid rounded-lg border-[#F9EED4] text-[#F9EED4] px-4 py-2 w-fit hover:bg-[#F9EED4] hover:text-[#9A3935] transition;
 }
 
 .slick-dots li.slick-active button:before {
