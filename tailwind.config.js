@@ -7,6 +7,9 @@ export default {
                 sans: ['"Inter"'],
                 fair: ['"Playfair Display"', 'serif'],
                 Jomo: ['"Jomolhari"', 'serif']
+            },
+            padding: {
+                unset: 'unset'
             }
         }
     },

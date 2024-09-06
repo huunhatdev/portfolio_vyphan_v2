@@ -47,3 +47,11 @@
 .infinite .slick-list {
     width: 100%;
 }
+
+.px__mobile {
+    @apply px-6 md:px-unset;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}

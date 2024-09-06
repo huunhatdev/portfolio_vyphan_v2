@@ -47,7 +47,7 @@ const IllustratedProject = () => {
         }
     ];
     return (
-        <div className="grid grid-cols-3 gap-8 container__box">
+        <div className="grid grid-cols-1 gap-8 px-6 md:grid-cols-3 container__box md:px-0">
             {listImage.map((item) => (
                 <ImageItem key={item.id} {...item} />
             ))}

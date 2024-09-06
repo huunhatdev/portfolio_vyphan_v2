@@ -2,10 +2,10 @@ import { getImage } from '../../utils/image';
 
 const VeggiesPage = () => {
     return (
-        <div className="container__box">
+        <div className="container__box px__mobile">
             <h2 className="c-title text-[#B23A34] mb-8">Veggies Got Talent!</h2>
             <p className="mb-12 text-2xl font-bold text-center">A take-off on the “America’s Got Talent!” TV Show.</p>
-            <div className="grid w-full grid-cols-2 mx-auto gap-7">
+            <div className="grid w-full grid-cols-1 mx-auto md:grid-cols-2 gap-7">
                 <img
                     className="w-full aspect-[3/4] object-cover"
                     src={getImage('Field Trip to the Kitchen 2-1.png')}
@@ -16,7 +16,7 @@ const VeggiesPage = () => {
                     src={getImage('Field Trip to the Kitchen 3-1.png')}
                     alt=""
                 />
-                <p className="p-9">
+                <p className="md:p-9">
                     <span className="font-bold">Veggies Got Talent!</span> is like a dynamic marketing campaign
                     promoting healthy foods, coordinated by schools or community groups, and performed by students. In
                     collaboration with FoodPlay Productions and their marketing team, we successfully implemented

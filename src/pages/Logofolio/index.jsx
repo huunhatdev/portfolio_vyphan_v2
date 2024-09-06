@@ -3,7 +3,7 @@ import LogoFolioItem from './LogoFolioItem';
 
 const LogoFolio = () => {
     return (
-        <div className="flex flex-col items-center container__box">
+        <div className="flex flex-col items-center container__box px__mobile">
             <TitleSection title="My branding experience" color="#FBF2DA" />
             <LogoFolioItem
                 title="Vietnamese Dance Movement (VDM)"

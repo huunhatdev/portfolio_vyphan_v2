@@ -6,14 +6,14 @@ const NutriBlogStudy = () => {
         <div className="container__box">
             <TitleBlog title="Why I Chose to Study Nutrition" date="February 14, 2024" />
 
-            <div className="aspect-video bg-[#FCF2F2] flex items-center justify-center">
+            <div className="aspect-video bg-[#FCF2F2] flex items-center justify-center mt-10">
                 <img className="object-contain h-4/5" src={getImage('Asset 4 1.png')} alt="" />
             </div>
-            <div className="pt-12 mb-8">
-                <img className="float-right" src={getImage('Layer 1.png')} alt="" />
+            <div className="pt-12 mb-8 px__mobile">
                 <h3 className="text-2xl font-semibold mb-9 font-fair">
                     My journey to nutrition was led by personal experiences with eating disorders during high school.
                 </h3>
+                <img className="mx-auto mb-4 md:float-right" src={getImage('Layer 1.png')} alt="" />
                 <p>
                     I did not have enough access to any professional assistance, both physically and mentally. Although
                     I understood that each individual’s body has a different metabolism and mechanism, general knowledge
@@ -23,7 +23,7 @@ const NutriBlogStudy = () => {
                     specialize in nutrition and food to assist individuals facing similar challenges.
                 </p>
             </div>
-            <p>
+            <p className="px__mobile">
                 Initially, my understanding of nutrition was limited to weight and physical appearance management.
                 Nevertheless, delving into nutrition courses has provided me with a novel vision and mindset. I realized
                 how magical nutrition study is. The true meaning of eating is not only to fulfill our satiety but also

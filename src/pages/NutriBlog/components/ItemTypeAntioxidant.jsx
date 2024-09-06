@@ -2,7 +2,7 @@ import { getImage } from '../../../utils/image';
 
 const ItemTypeAntioxidant = ({ imgSrc = '', title = '', description = '', imgBy = '', titleList = '', list = [] }) => {
     return (
-        <div className="grid grid-cols-2 gap-5 py-8">
+        <div className="grid grid-cols-1 gap-5 py-8 md:grid-cols-2">
             <div>
                 <h4 className="text-[#639033] font-bold text-xl">{title}</h4>
                 <p>

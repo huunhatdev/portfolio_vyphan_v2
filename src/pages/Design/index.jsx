@@ -27,9 +27,13 @@ const Design = () => {
         }
     ];
     return (
-        <div className="container__box">
-            <TitleSection title={`I also got some projects to practice my\nUX/UI design experiences`} color="#D5F2FC" />
-            <div className="grid grid-cols-2 gap-8">
+        <div className="container__box px__mobile">
+            <TitleSection color="#D5F2FC">
+                <p className="max-w-[32rem] text-center mx-auto">
+                    I also got some projects to practice my UX/UI design experiences
+                </p>
+            </TitleSection>
+            <div className="grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-2 ">
                 {listItem.map((item) => (
                     <Link key={item.id} to={item.path}>
                         <img className="aspect-[5/4] w-full object-cover" src={getImage(`${item.imgSrc}.png`)} alt="" />

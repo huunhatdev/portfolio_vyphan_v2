@@ -1,7 +1,10 @@
+import { useWindowSize } from 'hooks/useWindowSize';
 import TitleSection from '../../components/TitleSection';
 import ItemNutriBlog from './components/ItemNutriBlog';
 
 const NutriBlog = () => {
+    const { md } = useWindowSize();
+
     const listItem = [
         {
             id: 1,
@@ -38,10 +41,8 @@ const NutriBlog = () => {
                 purposes only. It should not be taken as professional medical advice; always consult a qualified
                 healthcare provider for personalized recommendation
             </p>
-            <div className="grid grid-cols-3 gap-6">
-                {listItem.map((item) => (
-                    <ItemNutriBlog key={item.id} {...item} />
-                ))}
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {listItem.map((item) => (!!item.path || md ? <ItemNutriBlog key={item.id} {...item} /> : null))}
             </div>
         </div>
     );

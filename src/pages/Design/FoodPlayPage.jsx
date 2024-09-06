@@ -7,9 +7,9 @@ const FoodPlayPage = () => {
             <p className="text-[#949494] mb-12 text-opacity-55 font-semibold text-2xl mx-auto text-center">
                 LANDING PAGE REDESIGN
             </p>
-            <div className="flex items-center justify-between gap-8 mb-24">
-                <img className="w-1/2" src={getImage('FPdisplay 1.png')} alt="" />
-                <div className="flex flex-col gap-4">
+            <div className="flex flex-col items-center justify-between gap-8 mb-6 md:mb-24 md:flex-row px__mobile">
+                <img className="md:w-1/2" src={getImage('FPdisplay 1.png')} alt="" />
+                <div className="flex flex-col gap-4 text-center md:text-left">
                     <p>
                         So, this personal project that I’ve been working on. I noticed that the current page is looking
                         a bit outdated and inconsistent in terms of layout and design. It&apos;s not as visually
@@ -24,7 +24,7 @@ const FoodPlayPage = () => {
                         href="https://www.foodplay.com"
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="px-3 py-2 w-fit border-2 rounded-xl border-[#DE5A41] border-solid font-semibold text-[#DE5A41] hover:bg-[#DE5A41] hover:text-white duration-300 transition-all"
+                        className="px-3 py-2 w-fit border-2 rounded-xl border-[#DE5A41] border-solid font-semibold text-[#DE5A41] hover:bg-[#DE5A41] hover:text-white duration-300 transition-all mx-auto md:mx-0"
                     >
                         Original Site
                     </a>

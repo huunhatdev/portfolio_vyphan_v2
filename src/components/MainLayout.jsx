@@ -3,12 +3,16 @@ import { getImage } from '../utils/image';
 import { IconInstagram } from '../assets/icons/IconInstagram';
 import { IconMail } from '../assets/icons/IconMail';
 import SideBar from './SideBar';
+import DropdownMenu from './DropdownMenu';
+import { useWindowSize } from 'hooks/useWindowSize';
 
 const MainLayout = () => {
+    const { md } = useWindowSize();
+
     return (
         <div className="min-h-[100vh] flex flex-col">
             <div className="h-[35px] bg-[#FDDBDE]"></div>
-            <div className="flex flex-col items-center flex-1 py-10">
+            <div className="relative flex flex-col items-center flex-1 py-10">
                 <div className="flex flex-col items-center gap-3">
                     <img className="w-32 h-30" src={getImage('Lan_Vy 1.png')} />
                     <p className="max-w-[420px] text-center text-[20px]">
@@ -16,7 +20,7 @@ const MainLayout = () => {
                     </p>
                     <img className="w-20 h-4" src={getImage('3dots.png')} />
                 </div>
-                <SideBar />
+                {md ? <SideBar /> : <DropdownMenu />}
                 <Outlet />
             </div>
             <div

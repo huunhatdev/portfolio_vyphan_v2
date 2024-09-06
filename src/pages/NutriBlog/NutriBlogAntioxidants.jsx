@@ -7,7 +7,7 @@ import SourcesAntioxidant from './components/SourcesAntioxidant';
 const NutriBlogAntioxidants = () => {
     const titleClassName = 'mb-3 text-2xl font-bold font-fair';
     return (
-        <div className="container__box">
+        <div className="container__box px__mobile">
             <TitleBlog title="Antioxidants in Actions: Battling Inflammation" date="May 14, 2024" />
             <p className="mt-10 font-bold">Welcome to the World of Antioxidants and Inflammation!</p>
             <p className="mb-10">
@@ -20,8 +20,8 @@ const NutriBlogAntioxidants = () => {
             <p className="mt-2 text-sm italic font-light text-black text-opacity-50">
                 Image by pikisuperstar on Freepik
             </p>
-            <p className="my-5">So first, let’s start with...</p>
-            <div>
+            <p className="my-5 ">So first, let’s start with...</p>
+            <div className="">
                 <h3 className={titleClassName}>What is Inflammation?</h3>
                 <p>
                     Inflammation is a natural response of the human immune system to illness, injury, or invaders
@@ -58,7 +58,7 @@ const NutriBlogAntioxidants = () => {
                     </ul>
                 </p>
             </div>
-            <div className="py-14">
+            <div className="py-14 ">
                 <h3 className={titleClassName}>What are Antioxidants?</h3>
                 <p className="py-3">
                     To understand the function of antioxidants,
@@ -82,7 +82,7 @@ const NutriBlogAntioxidants = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 mb-12">
+            <div className="grid grid-cols-1 mb-12 md:grid-cols-2 ">
                 <div>
                     <h4 className="text-[#639033] font-bold text-xl">Oxidative Stress</h4>
                     <p>
@@ -101,7 +101,7 @@ const NutriBlogAntioxidants = () => {
                 <img className="w-full" src={getImage('Antioxidants, Free Radicals-02 1.png')} alt="" />
             </div>
 
-            <div className="py-5">
+            <div className="py-5 ">
                 <h3 className={titleClassName}>Type of Antioxidants</h3>
                 <p>
                     There are many different types of antioxidants commonly found in our diets,{' '}
@@ -151,7 +151,7 @@ const NutriBlogAntioxidants = () => {
                 imgBy="Fullscript"
             />
 
-            <div className="py-5">
+            <div className="py-5 ">
                 <h3 className={titleClassName}>Antioxidants in Food</h3>
                 <p className="mb-5">
                     Try incorporating the following antioxidant-rich foods into your diet to combat oxidative stress!
@@ -159,7 +159,7 @@ const NutriBlogAntioxidants = () => {
                 <ListFood />
             </div>
 
-            <div className="py-5">
+            <div className="py-5 ">
                 <h3 className={titleClassName}>Antioxidants: Diet vs. Supplements</h3>
                 <p>
                     So, does the intake of antioxidants, or any other nutrients, through diet and supplements have the
@@ -185,7 +185,7 @@ const NutriBlogAntioxidants = () => {
                 </p>
             </div>
 
-            <div className="py-5">
+            <div className="py-5 ">
                 <h3 className={titleClassName}>What You Can Do</h3>
                 <p>
                     Consuming the right amount of antioxidants helps fight oxidative stress and reduce chronic

@@ -54,12 +54,12 @@ const NftPage = () => {
     return (
         <div className="container__box">
             <h2 className="c-title text-[#1E2242] mb-12">Freelance NFT Artist</h2>
-            <div className="grid grid-cols-3 mb-12 gap-7">
-                <img className="aspect-square" src={getImage('Twitter(tablet).png')} alt="" />
-                <img className="aspect-square" src={getImage('ME(tablet).png')} alt="" />
-                <img className="aspect-square" src={getImage('Discord (tablet).png')} alt="" />
+            <div className="flex flex-wrap justify-center gap-5 px-6 mb-10 lg:gap-7">
+                <img className="aspect-square w-[40%] md:w-auto" src={getImage('Twitter(tablet).png')} alt="" />
+                <img className="aspect-square w-[40%] md:w-auto" src={getImage('ME(tablet).png')} alt="" />
+                <img className="aspect-square w-[40%] md:w-auto" src={getImage('Discord (tablet).png')} alt="" />
             </div>
-            <p className="max-w-[26rem] mx-auto ">
+            <p className="md:max-w-[26rem] mx-auto px__mobile">
                 I co-founded and led the art team of an NFT Collection on Solana Blockchain from pre-money valuation to
                 post-money valuation. I worked with cross-functional team that consists of crypto gurus, entrepreneurs,
                 elite AI students, and 5 developers working for major tech companies.
@@ -77,7 +77,7 @@ const NftPage = () => {
                     View Collection
                 </a>
             </div>
-            <div className="grid grid-cols-3 gap-8">
+            <div className="grid grid-cols-2 gap-4 md:gap-8 md:grid-cols-3 px__mobile">
                 {listItem.map((img) => (
                     <img key={img} className="w-full aspect-square" src={getImage(`${img}.png`)} />
                 ))}
