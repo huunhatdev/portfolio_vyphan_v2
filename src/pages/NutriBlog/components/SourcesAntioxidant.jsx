@@ -9,7 +9,7 @@ const SourcesAntioxidant = () => {
         setVisible((prev) => !prev);
     };
     return (
-        <div className="pt-3 px__mobile">
+        <div className="pt-3">
             <div
                 className={classNames(
                     'flex items-center gap-2 font-bold transition-all cursor-pointer text-xl',

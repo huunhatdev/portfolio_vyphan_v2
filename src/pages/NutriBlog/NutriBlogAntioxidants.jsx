@@ -23,7 +23,7 @@ const NutriBlogAntioxidants = () => {
             <p className="my-5 ">So first, let’s start with...</p>
             <div className="">
                 <h3 className={titleClassName}>What is Inflammation?</h3>
-                <p>
+                <div>
                     Inflammation is a natural response of the human immune system to illness, injury, or invaders
                     entering the body (e.g. viruses). Imagine you cut yourself when chopping onion. At first, you will
                     notice the redness and swelling around the cut. These are the symptoms when inflammation kicks in.
@@ -56,7 +56,7 @@ const NutriBlogAntioxidants = () => {
                             </ul>
                         </li>
                     </ul>
-                </p>
+                </div>
             </div>
             <div className="py-14 ">
                 <h3 className={titleClassName}>What are Antioxidants?</h3>

@@ -5,12 +5,14 @@ import { IconMail } from '../assets/icons/IconMail';
 import SideBar from './SideBar';
 import DropdownMenu from './DropdownMenu';
 import { useWindowSize } from 'hooks/useWindowSize';
+import ScrollToTopPage from './ScrollToTopPage';
 
 const MainLayout = () => {
     const { md } = useWindowSize();
 
     return (
         <div className="min-h-[100vh] flex flex-col">
+            <ScrollToTopPage />
             <div className="h-[35px] bg-[#FDDBDE]"></div>
             <div className="relative flex flex-col items-center flex-1 py-10">
                 <div className="flex flex-col items-center gap-3">
@@ -18,7 +20,7 @@ const MainLayout = () => {
                     <p className="max-w-[420px] text-center text-[20px]">
                         Hello, I’m Vy, a freelance visual designer and a nutrition student based in the United States.
                     </p>
-                    <img className="w-20 h-4" src={getImage('3dots.png')} />
+                    <img className="w-20 h-4 mb-12 md:mb-0" src={getImage('3dots.png')} />
                 </div>
                 {md ? <SideBar /> : <DropdownMenu />}
                 <Outlet />

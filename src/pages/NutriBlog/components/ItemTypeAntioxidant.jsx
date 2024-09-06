@@ -5,7 +5,7 @@ const ItemTypeAntioxidant = ({ imgSrc = '', title = '', description = '', imgBy 
         <div className="grid grid-cols-1 gap-5 py-8 md:grid-cols-2">
             <div>
                 <h4 className="text-[#639033] font-bold text-xl">{title}</h4>
-                <p>
+                <div>
                     {description}
                     <br />
                     <br />
@@ -15,7 +15,7 @@ const ItemTypeAntioxidant = ({ imgSrc = '', title = '', description = '', imgBy 
                             <li key={item}>{item}</li>
                         ))}
                     </ul>
-                </p>
+                </div>
             </div>
             <div className="w-full">
                 <img className="w-full" src={getImage(imgSrc)} alt="" />

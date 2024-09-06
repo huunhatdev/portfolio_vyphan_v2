@@ -104,7 +104,7 @@ const RobosPage = () => {
 
             {/* section 4 */}
             <div className="container relative mx-auto mb-20 px__mobile">
-                <div className="absolute top-0 left-0 robos__title">
+                <div className="top-0 left-0 md:absolute robos__title">
                     <h2 className="robos__title--number">04</h2>
                     <h3 className="robos__title--text">User Flow </h3>
                 </div>

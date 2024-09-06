@@ -25,7 +25,7 @@ const Kitchen = () => {
     }, [width]);
 
     return (
-        <div className="container__box">
+        <div className="container__box px__mobile">
             <h2 className="c-title text-[#A2553D]">Field Trip to the Kitchen!</h2>
             <p className="mx-auto max-w-[26rem] my-12">
                 This is a second editorial project I got to work with FoodPlay Productions. The founder commissioned me
@@ -35,7 +35,7 @@ const Kitchen = () => {
             {!breakPoint && (
                 <img className="w-4/6 mx-auto mb-12" src={getImage('Field Trip to the Kitchen 2.png')} alt="" />
             )}
-            <div className="grid grid-cols-1 gap-8 px-6 mb-12 md:grid-cols-2 md:px-0">
+            <div className="grid grid-cols-1 gap-8 mb-12 md:grid-cols-2 md:px-0">
                 {finalImages.map((item) => (
                     <img className="w-full aspect-[3/4]" key={item} src={getImage(`${item}.png`)} />
                 ))}

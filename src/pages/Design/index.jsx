@@ -19,7 +19,7 @@ const Design = () => {
             subTitle: 'UX/UI Case Study'
         },
         {
-            id: 1,
+            id: 3,
             imgSrc: 'FoodPlay Redesign',
             path: 'foodplay',
             title: 'FoodPlay Productions | Landing Page',

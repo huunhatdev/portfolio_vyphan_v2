@@ -8,7 +8,7 @@ const DropdownMenu = () => {
                 <button className="inline-flex items-center px-4 py-2 font-semibold text-gray-700 rounded">
                     <IconMenu />
                 </button>
-                <ul className="absolute right-0 hidden rounded-sm shadow-sm bg-slate-50 dropdown-menu">
+                <ul className="absolute right-0 hidden rounded-lg shadow-sm bg-slate-50 dropdown-menu">
                     <SideBar />
                 </ul>
             </div>
