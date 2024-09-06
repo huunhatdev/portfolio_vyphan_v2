@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { getImage } from '../../utils/image';
+import CarouselMenu from './components/CarouselMenu';
+import CarouselInfinite from './components/CarouselInfinite';
 
 const EducationPage = () => {
     return (
@@ -11,7 +13,7 @@ const EducationPage = () => {
                 with Coloring Sheets, Rhymin’ Beats, and Recipes for Tasty Treats!
             </p>
 
-            <div className="relative container__box">
+            <div className="relative mb-16 container__box">
                 <div className="relative z-10 flex items-center px-4">
                     <img className="w-[40%]" src={getImage('Front and Back spiral 1.png')} alt="" />
                     <div className="py-6">
@@ -34,12 +36,26 @@ const EducationPage = () => {
                                 Order Here
                             </Link>
                             <Link to={'activity'} className="button">
-                                Order Here
+                                Amazon Link
                             </Link>
                         </div>
                     </div>
                 </div>
                 <div className="bg-[#9A3935] pl-[7%] absolute w-[80%] h-full right-0 top-0 z-0"></div>
+            </div>
+
+            <div className="mb-16 container__box">
+                <img className="mx-auto" src={getImage('Group 133.png')} alt="" />
+            </div>
+            <div className="mb-16 container__box">
+                <img className="mx-auto" src={getImage('Group 136.png')} alt="" />
+            </div>
+            <CarouselInfinite />
+            <div className="mb-16 container__box">
+                <img className="mx-auto" src={getImage('Group 137.png')} alt="" />
+            </div>
+            <div className="bg-[#9A3935]">
+                <CarouselMenu />
             </div>
         </div>
     );

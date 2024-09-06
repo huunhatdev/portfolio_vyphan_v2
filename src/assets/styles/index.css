@@ -1,4 +1,6 @@
 @import './reset.css';
+@import url('slick-carousel/slick/slick.css');
+@import url('slick-carousel/slick/slick-theme.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomolhari&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
@@ -28,4 +30,20 @@
 
 .button {
     @apply leading-8 border-[1.5px] border-solid rounded-lg border-[#F9EED4] text-[#F9EED4] px-4 py-2 w-fit;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white;
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.infinite .slick-list {
+    width: 100%;
 }
