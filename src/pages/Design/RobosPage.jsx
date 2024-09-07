@@ -8,8 +8,12 @@ const RobosPage = () => {
     return (
         <div className="w-full">
             <div
-                className="max-h-[40rem] mb-[20%]"
-                style={{ background: 'linear-gradient(180deg, #1F2143 0%, rgba(54, 57, 90, 0.85) 100%)' }}
+                className=""
+                style={{
+                    background: 'linear-gradient(180deg, #1F2143 0%, rgba(54, 57, 90, 0.85) 100%)',
+                    backgroundSize: '100% 60%',
+                    backgroundRepeat: 'no-repeat'
+                }}
             >
                 <div className="flex flex-col items-center container__box pt-14 ">
                     <h3 className="text-2xl font-semibold text-[#BDCCEA] text-opacity-55 mb-3">UX/UI CASE STUDY</h3>
@@ -24,7 +28,7 @@ const RobosPage = () => {
             {/* section 1 */}
             <div className="pb-10 lg:py-10 container__box px__mobile">
                 <div className="robos__title">
-                    <h2 className="robos__title--number">01</h2>
+                    <h2 className="robos__title--number text-[#43466F]">01</h2>
                     <h3 className="robos__title--text">Project Overview</h3>
                 </div>
                 <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
@@ -76,9 +80,9 @@ const RobosPage = () => {
             </div>
 
             {/* section 2 */}
-            <div className="mb-20">
+            <div className="mb-[15%]">
                 <div
-                    className="relative pt-12 min-h-[15rem] mb-[10rem]"
+                    className="relative pt-12 min-h-[14rem] lg:min-h-[18rem] mb-[5rem] md:mb-[10rem]"
                     style={{ background: 'linear-gradient(180deg, #1F2143 0%, rgba(54, 57, 90, 0.85) 100%)' }}
                 >
                     <div className="flex-row-reverse justify-center robos__title">
@@ -96,7 +100,7 @@ const RobosPage = () => {
             {/* section 3 */}
             <div className="mb-20 container__box px__mobile">
                 <div className="robos__title">
-                    <h2 className="robos__title--number">03</h2>
+                    <h2 className="robos__title--number text-[#43466F]">03</h2>
                     <h3 className="robos__title--text">UX Research - Paint Points</h3>
                 </div>
                 <img className="w-[80%] mx-auto" src={getImage('paint_point.png')} alt="" />
@@ -105,7 +109,7 @@ const RobosPage = () => {
             {/* section 4 */}
             <div className="container relative mx-auto mb-20 px__mobile">
                 <div className="top-0 left-0 md:absolute robos__title">
-                    <h2 className="robos__title--number">04</h2>
+                    <h2 className="robos__title--number text-[#43466F]">04</h2>
                     <h3 className="robos__title--text">User Flow </h3>
                 </div>
                 <img src={getImage('user_flow.png')} alt="" />
@@ -141,7 +145,7 @@ const RobosPage = () => {
             {/* section 6 */}
             <div className="mb-10 container__box px__mobile">
                 <div className="robos__title">
-                    <h2 className="robos__title--number ">06</h2>
+                    <h2 className="robos__title--number text-[#43466F]">06</h2>
                     <h3 className="robos__title--text">Style Guidline</h3>
                 </div>
                 <p className="mb-10 text-3xl">
@@ -210,7 +214,7 @@ const RobosPage = () => {
             >
                 <div className="container__box px__mobile">
                     <div className="flex-row-reverse justify-center robos__title">
-                        <h2 className="robos__title--number text-[#BDCCEA] text-opacity-90">07</h2>
+                        <h2 className="text-[#BDCCEA] robos__title--number">07</h2>
                         <h3 className="text-white robos__title--text">Visual Design</h3>
                     </div>
                     <div className="text-white">

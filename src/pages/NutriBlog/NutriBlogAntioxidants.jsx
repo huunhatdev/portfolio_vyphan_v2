@@ -139,7 +139,7 @@ const NutriBlogAntioxidants = () => {
                     'Green vegetables (spinach, lettuce)',
                     'Other foods with added vitamin E (cereals, juices, spreads)'
                 ]}
-                imgSrc="image 4.png"
+                imgSrc="image 3.png"
                 imgBy="Optimising Nutrition"
             />
 

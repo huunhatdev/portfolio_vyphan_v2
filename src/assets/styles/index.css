@@ -21,7 +21,7 @@
 }
 
 .robos__title--number {
-    @apply text-8xl font-bold text-[#43466F];
+    @apply font-bold text-8xl;
 }
 
 .container__box {
