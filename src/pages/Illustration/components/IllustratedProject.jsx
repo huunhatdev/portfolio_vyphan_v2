@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { getImage } from '../../../utils/image';
+import { getImage } from 'utils/image';
 
 const IllustratedProject = () => {
     const listImage = [
