@@ -12,7 +12,7 @@ const CarouselInfinite = () => {
         cssEase: 'linear'
     };
 
-    const listItem = ['Avocado(R) 1', 'Cabbage(R) 1', 'Carrot(R) 1', 'Avocado(R) 1', 'Cabbage(R) 1', 'Carrot(R) 1'];
+    const listItem = ['66', '54', '28', '26', '14', '12'];
 
     return (
         <div className="w-full mb-16 overflow-hidden">
