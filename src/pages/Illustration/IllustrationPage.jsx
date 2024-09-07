@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import TitleSection from '../../components/TitleSection';
-import IllustratedProject from './components/illustratedProject';
+import IllustratedProject from './components/IllustratedProject';
 import IllustratedEducation from './components/IllustratedEducation';
 
 const IllustrationPage = () => {

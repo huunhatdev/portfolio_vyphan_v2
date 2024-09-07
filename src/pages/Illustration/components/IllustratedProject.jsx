@@ -44,10 +44,7 @@ const IllustratedProject = () => {
     return (
         <div className="grid grid-cols-1 gap-8 px-6 md:grid-cols-3 container__box md:px-0">
             {listImage.map((item) => (
-                // <ImageItem key={item.path} {...item} />
-                <Link key={item.path} to={item.path} className="text-center">
-                    {item.title}
-                </Link>
+                <ImageItem key={item.path} {...item} />
             ))}
         </div>
     );
@@ -55,7 +52,6 @@ const IllustratedProject = () => {
 
 export default IllustratedProject;
 
-// eslint-disable-next-line no-unused-vars
 const ImageItem = ({ imgName = '', title = '', subTitle = '', path = '' }) => {
     return (
         <Link to={path} className="text-center">
