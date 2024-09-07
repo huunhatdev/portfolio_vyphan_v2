@@ -35,7 +35,11 @@ const MainLayout = () => {
             </div>
             <div
                 className="flex flex-col items-center justify-end gap-2 pb-2 bg-cover min-h-32"
-                style={{ backgroundImage: `url("${getImage('footer.png')}")` }}
+                style={{
+                    backgroundImage: `url("${getImage('footer.png')}")`,
+                    backgroundSize: '100% 8rem',
+                    backgroundRepeat: 'no-repeat'
+                }}
             >
                 <div className="flex justify-center gap-2">
                     <a href="https://www.instagram.com/vyphan.palette/">

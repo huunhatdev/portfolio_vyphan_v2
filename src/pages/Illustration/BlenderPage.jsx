@@ -9,7 +9,7 @@ const BlenderPage = () => {
                 object creation has improved my perceptual ability and boosted my creativity. Plus, I created these
                 products by following YouTube tutorials.
             </p>
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-8 mx-auto w-fit">
                 <div className="w-full">
                     <img className="mb-3" src={getImage('cozybedroom 2.png')} alt="" />
                     <span>

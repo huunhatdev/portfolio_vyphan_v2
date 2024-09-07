@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
 import { useWindowSize } from 'hooks/useWindowSize';
 import { getImage } from 'utils/image';
-import { WINDOW_SIZE } from 'hooks/constants';
 
 const IllustratedEducation = () => {
-    const { width } = useWindowSize();
+    const { lg } = useWindowSize();
     return (
-        <div className="relative mb-10">
+        <div className="relative mb-10 overflow-hidden">
             <div className="bg-[rgb(154,57,53)] lg:pl-[7%] absolute w-full h-[80%] lg:w-[70%]  lg:h-full right-0 bottom-0 lg:top-0 z-0"></div>
             <div
                 className="relative z-10 flex flex-col items-center px-10 pb-10 lg:pb-0 lg:px-0 lg:flex-row container__box"
@@ -22,14 +21,14 @@ const IllustratedEducation = () => {
                         I illustrated a 100-page-book, where the 30 veggie friends are not just ingredients but lively
                         characters dancing across the pages into the imagination of children and adults.
                     </p>
-                    {width >= WINDOW_SIZE.LG && <ButtonLearn />}
+                    {lg && <ButtonLearn />}
                 </div>
                 <img
-                    className="object-cover w-full md:w-auto md:h-full mx-auto lg:w-[30%]"
+                    className="object-cover w-full md:w-auto md:h-full mx-auto lg:w-[30%] lg:scale-125"
                     src={getImage('Mask group.png')}
                     alt=""
                 />
-                {width <= WINDOW_SIZE.LG && <ButtonLearn />}
+                {!lg && <ButtonLearn />}
             </div>
         </div>
     );
