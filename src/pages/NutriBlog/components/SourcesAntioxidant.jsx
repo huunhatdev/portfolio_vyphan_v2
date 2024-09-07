@@ -96,7 +96,7 @@ const SourcesAntioxidant = () => {
                         doi:10.3390/molecules23112983
                     </li>
                     <li>
-                        O’Connor EA, Evans CV, Ivlev I, et al. Vitamin and mineral supplements for the primary
+                        O&apos;Connor EA, Evans CV, Ivlev I, et al. Vitamin and mineral supplements for the primary
                         prevention of cardiovascular disease and cancer: updated evidence report and systematic review
                         for the US Preventive Services Task Force. JAMA. 2022;327(23):2334-2347.
                         doi:10.1001/jama.2021.15650

@@ -16,11 +16,11 @@ const NutriBlogStudy = () => {
                 <img className="mx-auto mb-4 md:float-right" src={getImage('Layer 1.png')} alt="" />
                 <p>
                     I did not have enough access to any professional assistance, both physically and mentally. Although
-                    I understood that each individual’s body has a different metabolism and mechanism, general knowledge
-                    and unreliable information found on the internet did not help me improve my matter. Not until years
-                    later did I have a chance to take nutrition courses that I learned how to overcome my eating
-                    disorders and develop good relationships with food. Motivated by my transformation, I aspire to
-                    specialize in nutrition and food to assist individuals facing similar challenges.
+                    I understood that each individual&apos;s body has a different metabolism and mechanism, general
+                    knowledge and unreliable information found on the internet did not help me improve my matter. Not
+                    until years later did I have a chance to take nutrition courses that I learned how to overcome my
+                    eating disorders and develop good relationships with food. Motivated by my transformation, I aspire
+                    to specialize in nutrition and food to assist individuals facing similar challenges.
                 </p>
             </div>
             <p className="px__mobile">

@@ -11,8 +11,8 @@ const FoodPlayPage = () => {
                 <img className="md:w-1/2" src={getImage('FPdisplay 1.png')} alt="" />
                 <div className="flex flex-col gap-4 text-center md:text-left">
                     <p>
-                        So, this personal project that I’ve been working on. I noticed that the current page is looking
-                        a bit outdated and inconsistent in terms of layout and design. It&apos;s not as visually
+                        So, this personal project that I&apos;ve been working on. I noticed that the current page is
+                        looking a bit outdated and inconsistent in terms of layout and design. It&apos;s not as visually
                         appealing as I&apos;d like it to be, and I think this might make it less attractive to visitors.
                         Plus, the information is kind of all over the place, which isn&apos;t very user-friendly.
                         <br />

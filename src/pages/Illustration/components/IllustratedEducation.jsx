@@ -16,7 +16,7 @@ const IllustratedEducation = () => {
                 <div className="flex flex-col gap-4 py-4 md:py-16 lg:w-[40%]">
                     <p className="font-bold text-2xl text-[#F9EED4]">Veggies Got Talent! A Fun-Filled Activity Kit</p>
                     <p className="italic font-bold text-xl text-[#E8C69B]">
-                        with Coloring Sheets, Rhymin’ Beats, and Recipes for Tasty Treats!
+                        with Coloring Sheets, Rhymin&apos; Beats, and Recipes for Tasty Treats!
                     </p>
                     <p className="text-white">
                         I illustrated a 100-page-book, where the 30 veggie friends are not just ingredients but lively

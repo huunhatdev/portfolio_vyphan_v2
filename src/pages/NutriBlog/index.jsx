@@ -17,7 +17,7 @@ const NutriBlog = () => {
             id: 2,
             title: 'Antioxidants in Action: Battling Inflammation',
             subTitle:
-                'Welcome to the World of Antioxidants and Inflammation! It’s going to be an action-packed journey you won’t want to miss!',
+                'Welcome to the World of Antioxidants and Inflammation! It&apos;s going to be an action-packed journey you won&apos;t want to miss!',
             imgSrc: 'image 1.png',
             path: 'antioxidants'
         },

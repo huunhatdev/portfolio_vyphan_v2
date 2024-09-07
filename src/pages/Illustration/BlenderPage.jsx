@@ -5,7 +5,7 @@ const BlenderPage = () => {
         <div className="container__box px__mobile">
             <h2 className="c-title text-[#C69C88] mb-8">Blender Project</h2>
             <p className="text-[#231F20] md:max-w-[23rem] mx-auto mb-12">
-                Recently, I discovered Blender and couldn’t wait to try out this incredible software. Practicing 3D
+                Recently, I discovered Blender and couldn&apos;t wait to try out this incredible software. Practicing 3D
                 object creation has improved my perceptual ability and boosted my creativity. Plus, I created these
                 products by following YouTube tutorials.
             </p>

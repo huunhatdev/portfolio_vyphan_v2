@@ -11,16 +11,16 @@ const NutriBlogAntioxidants = () => {
             <TitleBlog title="Antioxidants in Actions: Battling Inflammation" date="May 14, 2024" />
             <p className="mt-10 font-bold">Welcome to the World of Antioxidants and Inflammation!</p>
             <p className="mb-10">
-                There are amazing discoveries waiting for you to explore, especially if you’re unaware of how a morning
-                cup of blueberries can protect you from chronic inflammatory disease! It’s going to be an action-packed
-                journey you won’t want to miss!
+                There are amazing discoveries waiting for you to explore, especially if you&apos;re unaware of how a
+                morning cup of blueberries can protect you from chronic inflammatory disease! It&apos;s going to be an
+                action-packed journey you won&apos;t want to miss!
             </p>
 
             <img className="object-cover w-full aspect-video" src={getImage('Antioxidants.png')} alt="" />
             <p className="mt-2 text-sm italic font-light text-black text-opacity-50">
                 Image by pikisuperstar on Freepik
             </p>
-            <p className="my-5 ">So first, let’s start with...</p>
+            <p className="my-5 ">So first, let&apos;s start with...</p>
             <div className="">
                 <h3 className={titleClassName}>What is Inflammation?</h3>
                 <div>
@@ -52,7 +52,10 @@ const NutriBlogAntioxidants = () => {
                                 <li>Arthritis</li>
                                 <li>Cancer</li>
                                 <li>Mental health-related diseases (e.g. depression, anxiety)</li>
-                                <li>Neurodegenerative diseases (e.g. Alzheimer’s disease, Parkinson’s disease).</li>
+                                <li>
+                                    Neurodegenerative diseases (e.g. Alzheimer&apos;s disease, Parkinson&apos;s
+                                    disease).
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -90,7 +93,7 @@ const NutriBlogAntioxidants = () => {
                         and chemicals can also create free radicals. When there are more free radicals than antioxidants
                         in our bodies, it causes oxidative stress. Over time, this damages the body&apos;s cells and
                         tissues and leads to several chronic inflammations such as cancer, heart disease, and
-                        neurological disease (e.g. Alzheimer’s disease, Parkinson’s disease).
+                        neurological disease (e.g. Alzheimer&apos;s disease, Parkinson&apos;s disease).
                         <br />
                         <br />
                         So, how to reduce oxidative stress or free radicals and prevent ourselves from chronic
@@ -174,10 +177,10 @@ const NutriBlogAntioxidants = () => {
                     cancer.
                     <br />
                     <br />
-                    There’s more! In a 2022 review involving 84 studies and more than 700,000 participants, scientists
-                    found that vitamin and mineral supplements have no effect in preventing cancer, heart disease, and
-                    even death. More surprisingly, beta-carotene supplements actually increased the lung cancer risk by
-                    20%.
+                    There&apos;s more! In a 2022 review involving 84 studies and more than 700,000 participants,
+                    scientists found that vitamin and mineral supplements have no effect in preventing cancer, heart
+                    disease, and even death. More surprisingly, beta-carotene supplements actually increased the lung
+                    cancer risk by 20%.
                     <br />
                     <br />
                     With numerous evidence-based studies, by 2022, the U.S. Preventive Services Task Force recommended

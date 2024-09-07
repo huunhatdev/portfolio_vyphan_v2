@@ -4,7 +4,9 @@ const VeggiesPage = () => {
     return (
         <div className="container__box px__mobile">
             <h2 className="c-title text-[#B23A34] mb-8">Veggies Got Talent!</h2>
-            <p className="mb-12 text-2xl font-bold text-center">A take-off on the “America’s Got Talent!” TV Show.</p>
+            <p className="mb-12 text-2xl font-bold text-center">
+                A take-off on the “America&apos;s Got Talent!” TV Show.
+            </p>
             <div className="grid w-full grid-cols-1 mx-auto md:grid-cols-2 gap-7">
                 <img
                     className="w-full aspect-[3/4] object-cover"

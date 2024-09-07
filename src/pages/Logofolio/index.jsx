@@ -23,7 +23,7 @@ const LogoFolio = () => {
             <div className="divide-x"></div>
             <LogoFolioItem
                 title="Laotian & Cambodian Student Association"
-                subTitle="Student’s Organization"
+                subTitle="Student's Organization"
                 srcImg="Main Logo.png"
                 color={['#59ACE0', '#EA465E']}
             >

@@ -15,7 +15,7 @@ const EducationPage = () => {
                     {'Veggies Got Talent!\nA Fun-Filled Activity Kit'}
                 </h2>
                 <p className="font-semibold text-2xl text-[#AE8B6E] mx-auto text-center mb-6">
-                    with Coloring Sheets, Rhymin’ Beats, and Recipes for Tasty Treats!
+                    with Coloring Sheets, Rhymin&apos; Beats, and Recipes for Tasty Treats!
                 </p>
             </div>
 
@@ -24,18 +24,18 @@ const EducationPage = () => {
                     <img className="w-[70%] md:w-[40%]" src={getImage('Front and Back spiral 1.png')} alt="" />
                     <div className="py-6">
                         <p className="mb-4 text-white ">
-                            In today’s society, where the marketing for processed and fast foods is predominantly
+                            In today&apos;s society, where the marketing for processed and fast foods is predominantly
                             advertised, I recognized the importance of taking action in encouraging children to consume
-                            fruits and vegetables. Collaborating closely with FoodPlay’s founder, we embarked on the{' '}
-                            <span className="font-bold">Veggies Got Talent! A Fun-Filled Activity Kit</span> to make the
-                            consumption of vegetables enjoyable.
+                            fruits and vegetables. Collaborating closely with FoodPlay&apos;s founder, we embarked on
+                            the <span className="font-bold">Veggies Got Talent! A Fun-Filled Activity Kit</span> to make
+                            the consumption of vegetables enjoyable.
                             <br />
                             <br />
                             Kids can even put on their own <span className="font-bold">
                                 “Veggies Got Talent! Show”
                             </span>{' '}
                             to promote veggies to their peers and families in an inspiring performance guaranteed to
-                            increase children’s preferences for vegetables!
+                            increase children&apos;s preferences for vegetables!
                         </p>
                         <div className="flex justify-center gap-3 md:justify-start">
                             <Link to={'#'} className="button">

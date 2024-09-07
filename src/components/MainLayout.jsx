@@ -25,7 +25,8 @@ const MainLayout = () => {
                         <img className="w-32 h-30" src={getImage('Lan_Vy 1.png')} />
                     </Link>
                     <p className="max-w-[420px] text-center text-[20px]">
-                        Hello, I’m Vy, a freelance visual designer and a nutrition student based in the United States.
+                        Hello, I&apos;m Vy, a freelance visual designer and a nutrition student based in the United
+                        States.
                     </p>
                     <img className="w-20 h-4 mb-12 md:mb-0" src={getImage('3dots.png')} />
                 </div>
