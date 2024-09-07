@@ -14,7 +14,7 @@ import TalkShow from '../pages/Illustration/TalkShow';
 import Design from '../pages/Design';
 import FoodPlayPage from '../pages/Design/FoodPlayPage';
 import RobosPage from '../pages/Design/RobosPage';
-// import IllustrationPage from '../pages/Illustration/IllustrationPage';
+import IllustrationPage from '../pages/Illustration/IllustrationPage';
 import EducationPage from '../pages/Illustration/EducationPage';
 
 export const router = [
@@ -28,8 +28,7 @@ export const router = [
                 children: [
                     {
                         index: true,
-                        element: <div></div>
-                        // element: <IllustrationPage />
+                        element: <IllustrationPage />
                     },
                     {
                         path: 'kitchen',
