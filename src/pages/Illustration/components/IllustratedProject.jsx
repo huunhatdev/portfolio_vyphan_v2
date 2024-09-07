@@ -46,6 +46,7 @@ const IllustratedProject = () => {
             path: 'arts'
         }
     ];
+
     return (
         <div className="grid grid-cols-1 gap-8 px-6 md:grid-cols-3 container__box md:px-0">
             {listImage.map((item) => (
@@ -57,7 +58,7 @@ const IllustratedProject = () => {
 
 export default IllustratedProject;
 
-const ImageItem = ({ imgName = '', title = '', subTitle = '', path }) => {
+const ImageItem = ({ imgName = '', title = '', subTitle = '', path = '' }) => {
     return (
         <Link to={path} className="text-center">
             <img className="aspect-[3/4] w-full" src={getImage(imgName)} />
